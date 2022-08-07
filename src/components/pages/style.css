@@ -1,0 +1,142 @@
+#home-tag {
+    display: none;
+}
+
+#profile_img {
+    position: relative;
+    margin-top: 100px;
+    border-radius: 50%;
+}
+
+#cloth-type {
+    width: 500px;
+}
+
+#cloth-type-label {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 700px;
+}
+
+#cloth-type-label-h5 {
+    color: black;
+}
+
+.inputs_parent {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gender {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 25%;
+    margin-top: 30px;
+}
+
+.size {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 5%;
+    margin-top: 30px;
+}
+
+.gender-input {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.size-input {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    flex-direction: row;
+    margin-left: 30px;
+}
+
+#select {
+    margin-left: 30px;
+}
+
+#select-div {
+    margin-right: 23%;
+}
+
+#submit-btn {
+    margin-top: 30px;
+}
+
+.post {
+    height: 300px;
+    width: 400px;
+    border: 5px solid black;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 10%;
+    color: white;
+    background-color: black;
+}
+
+.get_clothes_page {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.my_donations {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#title {
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.card {
+    width: 800px;
+    height: 350px;
+    font-size: 30px;
+}
+
+.home {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.text {
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+}
+
+.home {
+    background-image: url('../images/clothing-donation-illustration.png');
+}
+
+.get_clothes_page {
+    background-image: url('../images/clothing-donation-illustration.png');
+}
